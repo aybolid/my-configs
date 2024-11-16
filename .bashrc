@@ -86,3 +86,11 @@ eval "$(zoxide init --cmd cd bash)"
 . "/home/matth/.deno/env"
 # Turso
 export PATH="$PATH:/home/matth/.turso"
+
+# pnpm
+export PNPM_HOME="/home/main/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
