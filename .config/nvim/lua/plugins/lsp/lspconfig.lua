@@ -1,8 +1,8 @@
 local servers = {
   -- Go
-  gopls = {},
-  gofumpt = {},
-  goimports = {},
+  -- gopls = {},
+  -- gofumpt = {},
+  -- goimports = {},
 
   -- Rust
   rust_analyzer = {},
