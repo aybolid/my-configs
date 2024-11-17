@@ -66,8 +66,7 @@ alias "view"="fzf --preview=\"bat --color=always {}\""
 
 alias "tygo"="~/go/bin/tygo"
 
-### Force zed use x11
-alias "zed"="WAYLAND_DISPLAY='' zed"
+### Force zed use x11 alias "zed"="WAYLAND_DISPLAY='' zed"
 
 # Custom fns
 awsexport() {
