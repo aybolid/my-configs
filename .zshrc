@@ -50,6 +50,8 @@ alias ..="cd .."
 
 alias cd="z"
 
+alias cat="bat"
+
 # pnpm
 export PNPM_HOME="/home/main/.local/share/pnpm"
 case ":$PATH:" in
