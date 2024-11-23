@@ -22,7 +22,7 @@ dynamic_title = true
 decorations = "none"
 dynamic_padding = true
 opacity = 1
-startup_mode = "Maximized"
+# startup_mode = "Maximized"
 
 [window.padding]
 x = 6
