@@ -1,16 +1,16 @@
 [font]
-size = 14
+size = 15
 
 [font.bold]
-family = "ZedMono Nerd Font"
+family = "Agave Nerd Font"
 style = "Bold"
 
 [font.italic]
-family = "ZedMono Nerd Font"
+family = "Agave Nerd Font"
 style = "Italic"
 
 [font.normal]
-family = "ZedMono Nerd Font"
+family = "Agave Nerd Font"
 style = "Regular"
 
 [terminal.shell]
@@ -19,7 +19,7 @@ program = "/bin/zsh"
 
 [window]
 dynamic_title = true
-decorations = "none"
+decorations = "full"
 dynamic_padding = true
 opacity = 1
 # startup_mode = "Maximized"
