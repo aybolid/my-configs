@@ -52,6 +52,11 @@ alias cd="z"
 
 alias cat="bat"
 
+function dconvert() {
+  filename=$1
+  ffmpeg -i $filename.mp4 -vcodec mjpeg -q:v 2 -acodec pcm_s16be -q:a 0 -f mov $filename.mov
+}
+
 # pnpm
 export PNPM_HOME="/home/main/.local/share/pnpm"
 case ":$PATH:" in
@@ -67,3 +72,7 @@ eval "$(zoxide init zsh)"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
