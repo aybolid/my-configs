@@ -75,6 +75,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # go
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$HOME/go/bin
 
 # android
 export ANDROID_HOME="$HOME/Android/Sdk"

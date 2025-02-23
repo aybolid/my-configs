@@ -1,3 +1,3 @@
-font-family = Agave Nerd Font
+font-family = ZedMono NF
 font-size = 14
-theme = zenwritten_dark
+theme = dark:zenwritten_dark,light:iTerm2 Solarized Light
